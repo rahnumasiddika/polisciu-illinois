@@ -16,6 +16,8 @@
   .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:13px;font-weight:600;color:#ffb8a3;margin:0 0 10px}
   h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:0 0 12px}
   .lede{font-size:19px;max-width:700px;margin:0 0 22px;color:#dfe6f2}
+  .members{list-style:none;padding:0;margin:0 0 24px;display:flex;flex-wrap:wrap;gap:8px}
+  .members li{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:5px 14px;font-size:14px;font-weight:600}
   .cta{display:inline-block;background:var(--orange);color:#fff;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:6px;margin:0 10px 8px 0}
   .cta.ghost{background:transparent;border:2px solid #fff}
   .cta:hover{color:#fff;filter:brightness(1.08)}
@@ -64,7 +66,8 @@
   <div class="wrap">
     <p class="eyebrow">Department of Political Science · University of Illinois Urbana-Champaign</p>
     <h1>PoliSci U: Spring 2027 Methods Courses</h1>
-    <p class="lede">Advanced political methodology courses taught live over video and open to graduate students at Illinois, Minnesota, Ohio State, and Wisconsin–Madison. See what's offered and how to enroll.</p>
+    <p class="lede">Advanced political methodology courses taught live, in person at the host campus and over Zoom, and open to graduate students at all member universities. See what's offered and how to enroll.</p>
+    <ul class="members" aria-label="Member universities"><li>University of Illinois Urbana-Champaign</li><li>University of Minnesota</li><li>The Ohio State University</li><li>University of Wisconsin–Madison</li></ul>
     <a class="cta" href="#courses">See Spring 2027 courses</a>
     <a class="cta ghost" href="#how-to-enroll">How to enroll</a>
   </div>
@@ -86,10 +89,10 @@
   <section id="dates">
     <h2>Key Dates</h2>
     <div class="dates">
-      <div class="date"><b>Registration opens</b><span class="placeholder">[date]</span></div>
-      <div class="date"><b>Tell the instructor you plan to join</b><span class="placeholder">[date]</span></div>
-      <div class="date"><b>First-half (8-week) courses begin</b><span class="placeholder">[date]</span></div>
-      <div class="date"><b>Last day to add</b><span class="placeholder">[date]</span></div>
+      <div class="date"><b>Causal Inference begins</b><span>Friday, January 22, 2027</span></div>
+      <div class="date"><b>Causal Inference: last day to add</b><span>Monday, January 25, 2027</span></div>
+      <div class="date"><b>Intro to Deep Neural Networks begins</b><span>Friday, March 26, 2027</span></div>
+      <div class="date"><b>Deep Neural Networks: last day to add</b><span>Friday, March 26, 2027</span></div>
     </div>
     <p class="note">All class times on this page are in Central Time. The four universities have different academic calendars, so check start dates against your own university's calendar.</p>
   </section>
@@ -100,66 +103,62 @@
     <article class="course" id="causal-inference">
       <div class="top">
         <div><span class="inst">Hosted by Illinois</span><h3>Causal Inference for Observational Studies</h3></div>
-        <span class="badge b-open">Open for enrollment</span>
       </div>
       <p>Methods for drawing causal conclusions from observational data: matching, difference-in-differences, regression discontinuity, natural experiments, synthetic controls, and related sensitivity analyses. Students work with real datasets in R. Key texts include Rosenbaum's <em>Design of Observational Studies</em> and <em>An Introduction to the Theory of Observational Studies</em>, and Cunningham's <em>Causal Inference: The Mixtape</em>.</p>
       <div class="facts">
         <div><b>Instructor</b>Jake Bowers<br><a href="mailto:jwbowers@illinois.edu">jwbowers@illinois.edu</a></div>
         <div><b>Length</b>8 weeks, first half of semester</div>
-        <div><b>Meets</b><span class="placeholder">[day, time CT]</span></div>
-        <div><b>Illinois course no.</b><span class="placeholder">[PS ___ / CRN ___]</span></div>
-        <div><b>Credit hours</b><span class="placeholder">[__]</span></div>
-        <div><b>Prerequisites</b><span class="placeholder">[e.g., first-year methods sequence; R]</span></div>
+        <div><b>Time</b>2:00–4:20 pm CT</div>
+        <div><b>Dates</b>Starts Fri, Jan 22, 2027<br>Last day to add: Jan 25, 2027</div>
+        <div><b>Location</b>429 David Kinley Hall, Urbana<br>Online participants: Zoom</div>
+        <div><b>Illinois course no.</b>PS 590</div>
+        <div><b>Credit hours</b>2</div>
       </div>
-      <div class="enroll"><strong>To enroll:</strong> Illinois students register under the course number above. Students at Ohio State, Minnesota or Wisconsin follow <a href="#path-partner">these steps</a>.</div>
+      <div class="enroll"><strong>To enroll:</strong> Illinois students register for PS 590. Students at other member universities follow <a href="#path-partner">these steps</a>.</div>
     </article>
 
     <article class="course" id="deep-neural-networks">
       <div class="top">
-        <div><span class="inst">Hosted by Illinois</span><h3>PS 590: Deep Neural Networks</h3></div>
-        <span class="badge b-planned">Planned</span>
+        <div><span class="inst">Hosted by Illinois</span><h3>Intro to Deep Neural Networks</h3></div>
       </div>
-      <p><span class="placeholder">[Course description]</span></p>
+      <p>An applied introduction to deep neural networks (DNNs) for political and social scientists, taught in an accelerated 8-week format. The first half moves from the foundations of supervised machine learning to the architecture of DNNs, treating them as nested compositions of non-linear functions, and teaches hands-on techniques for estimating a DNN's (possibly many) coefficients and optimizing its parameters. The second half covers how DNNs are used to classify and analyze images as data (e.g., convolutional neural networks), text as data (e.g., recurrent neural networks and transformers such as BERT) and, as time permits, other data types.</p>
       <div class="facts">
-        <div><b>Instructor</b>Fabricio Vasselai<br><span class="placeholder">[email]</span></div>
-        <div><b>Length</b><span class="placeholder">[full semester / 8 weeks]</span></div>
-        <div><b>Meets</b><span class="placeholder">[day, time CT]</span></div>
-        <div><b>Illinois course no.</b>PS 590 <span class="placeholder">[section / CRN]</span></div>
-        <div><b>Credit hours</b><span class="placeholder">[__]</span></div>
-        <div><b>Prerequisites</b><span class="placeholder">[__]</span></div>
+        <div><b>Instructor</b>Fabricio Vasselai</div>
+        <div><b>Length</b>8 weeks, second half of semester</div>
+        <div><b>Time</b>2:00–4:20 pm CT</div>
+        <div><b>Dates</b>Starts Fri, Mar 26, 2027<br>Last day to add: Mar 26, 2027</div>
+        <div><b>Location</b>429 David Kinley Hall, Urbana<br>Online participants: Zoom</div>
+        <div><b>Illinois course no.</b>PS 590, section B</div>
+        <div><b>Credit hours</b>2</div>
+        <div><b>Prerequisites</b>Comfortable working in R; a first-year graduate sequence in quantitative social science methods (or equivalent)</div>
       </div>
-      <div class="enroll"><strong>To enroll:</strong> This course is planned to run over video. Illinois students register for PS 590 once the section is posted. Students at partner universities follow <a href="#path-partner">these steps</a>.</div>
+      <div class="enroll"><strong>To enroll:</strong> Illinois students register for PS 590, section B. Students at other member universities follow <a href="#path-partner">these steps</a>.</div>
     </article>
 
     <article class="course osu" id="quant-2-mle">
       <div class="top">
         <div><span class="inst">Hosted by Ohio State</span><h3>Quant 2 (MLE)</h3></div>
-        <span class="badge b-potential">Not yet confirmed</span>
       </div>
-      <p>Maximum likelihood estimation. Ohio State is open to offering this course over video. Details will be posted here once confirmed.</p>
+      <p>Maximum likelihood estimation. Details will be posted here soon.</p>
       <div class="facts">
         <div><b>Instructor</b>Maria Silfa</div>
-        <div><b>Meets</b><span class="placeholder">[day, time CT]</span></div>
-        <div><b>Illinois course no.</b><span class="placeholder">[to be confirmed]</span></div>
+        <div><b>Time and dates</b>To be announced</div>
       </div>
-      <div class="enroll"><strong>Interested?</strong> Email the <a href="#contact">Illinois PoliSci U coordinator</a> to join the interest list. Enrollment steps for Illinois students are <a href="#path-elsewhere">here</a>.</div>
+      <div class="enroll"><strong>Interested?</strong> Email the <a href="#contact">Illinois PoliSci U coordinator</a>. Enrollment steps for Illinois students are <a href="#path-elsewhere">here</a>.</div>
     </article>
 
     <article class="course osu" id="formal-theory-1">
       <div class="top">
         <div><span class="inst">Hosted by Ohio State</span><h3>Formal Theory 1</h3></div>
-        <span class="badge b-potential">Not yet confirmed</span>
       </div>
-      <p>Ohio State is open to offering this course over video. Details will be posted here once confirmed.</p>
+      <p>Details will be posted here soon.</p>
       <div class="facts">
         <div><b>Instructor</b>Zuheir Desai</div>
-        <div><b>Meets</b><span class="placeholder">[day, time CT]</span></div>
-        <div><b>Illinois course no.</b><span class="placeholder">[to be confirmed]</span></div>
+        <div><b>Time and dates</b>To be announced</div>
       </div>
-      <div class="enroll"><strong>Interested?</strong> Email the <a href="#contact">Illinois PoliSci U coordinator</a> to join the interest list. Enrollment steps for Illinois students are <a href="#path-elsewhere">here</a>.</div>
+      <div class="enroll"><strong>Interested?</strong> Email the <a href="#contact">Illinois PoliSci U coordinator</a>. Enrollment steps for Illinois students are <a href="#path-elsewhere">here</a>.</div>
     </article>
 
-    <p class="note">No PoliSci U courses are offered by Wisconsin–Madison or Minnesota in Spring 2027.</p>
   </section>
 
   <section id="how-to-enroll">
@@ -169,7 +168,7 @@
       <div class="path" id="path-illinois">
         <h3>Illinois student, course taught at Illinois</h3>
         <ol>
-          <li>Find the course number and CRN in the course listing above.</li>
+          <li>Find the course number and section in the course listing above.</li>
           <li>Register through Illinois's usual graduate registration system.</li>
           <li>If registration is restricted, contact <span class="placeholder">[Graduate Program Coordinator, email]</span> for permission.</li>
         </ol>
@@ -184,9 +183,9 @@
         </ol>
       </div>
       <div class="path" id="path-partner">
-        <h3>Student at Ohio State, Minnesota or Wisconsin, course taught at Illinois</h3>
+        <h3>Student at another member university, course taught at Illinois</h3>
         <ol>
-          <li>Ask your department's PoliSci U contact or graduate office which local course number to register under. At Wisconsin, for example, PoliSci U courses have been listed as POLI SCI 919.</li>
+          <li>Ask your department's PoliSci U contact or graduate office which local course number to register under.</li>
           <li>Register at your home university.</li>
           <li>Email the instructor so you get the video link and course materials.</li>
         </ol>
@@ -198,7 +197,7 @@
     <h2>Frequently Asked Questions</h2>
     <details>
       <summary>Who can take PoliSci U courses?</summary>
-      <p>Graduate students at the four member universities: Illinois, Minnesota, Ohio State, and Wisconsin–Madison. Each course lists its prerequisites; check with the instructor if you're unsure whether you're ready.</p>
+      <p>Graduate students at the member universities listed at the top of this page. Each course lists its prerequisites; check with the instructor if you're unsure whether you're ready.</p>
     </details>
     <details>
       <summary>Do I pay extra tuition?</summary>
@@ -206,7 +205,7 @@
     </details>
     <details>
       <summary>How are classes delivered?</summary>
-      <p>Classes are taught live by the host instructor and joined by video from the other campuses. <span class="placeholder">[Illinois iTV room or Zoom details]</span></p>
+      <p>Classes are taught live by the host instructor. Illinois-hosted courses meet in 429 David Kinley Hall, and students at other campuses join on Zoom. Ask the instructor for the Zoom link.</p>
     </details>
     <details>
       <summary>Will the course count toward my methods requirements?</summary>
