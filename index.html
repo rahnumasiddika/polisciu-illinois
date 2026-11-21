@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PoliSci U at Illinois — Spring 2027 Courses &amp; Enrollment</title>
+<title>PoliSci U — Spring 2027 Courses &amp; Enrollment</title>
 <meta name="description" content="Spring 2027 PoliSci U graduate political methodology courses (Illinois, Minnesota, Ohio State, Wisconsin–Madison) and how to enroll.">
 <style>
   :root{--blue:#13294B;--orange:#E84A27;--ink:#1d2433;--muted:#5b6475;--line:#dde2ea;--soft:#f4f6f9}
@@ -56,6 +56,16 @@
   summary{font-weight:600;cursor:pointer;color:var(--blue)}
   details p{margin:10px 0 0;font-size:15.5px}
   .contact-box{background:var(--soft);border-radius:6px;padding:18px 20px}
+  .uni-tabs{display:flex;flex-wrap:wrap;gap:6px;border-bottom:2px solid var(--line);margin:6px 0 18px}
+  .uni-tabs button{font:inherit;font-size:15px;font-weight:600;background:none;border:none;border-bottom:3px solid transparent;margin-bottom:-2px;padding:10px 14px;color:var(--muted);cursor:pointer}
+  .uni-tabs button[aria-selected="true"]{color:var(--blue);border-bottom-color:var(--orange)}
+  .uni-tabs button:hover{color:var(--blue)}
+  .pending{font-size:15px;color:var(--muted);font-style:italic;margin:0}
+  .panel-foot{margin-top:16px;font-size:15px}
+  .tbc{color:var(--muted);font-style:italic}
+  .archive-list{columns:2 300px;padding-left:20px;font-size:15.5px;margin:0 0 20px}
+  .archive-list li{margin-bottom:6px;break-inside:avoid}
+  #archive h3{font-size:18px;color:var(--blue);margin:18px 0 8px}
   footer{margin-top:48px;border-top:1px solid var(--line);background:var(--soft)}
   footer .wrap{padding:24px;font-size:14px;color:var(--muted)}
 </style>
@@ -64,7 +74,7 @@
 
 <header class="hero">
   <div class="wrap">
-    <p class="eyebrow">Department of Political Science · University of Illinois Urbana-Champaign</p>
+    <p class="eyebrow">PoliSci U · Advanced Political Methodology Consortium</p>
     <h1>PoliSci U: Spring 2027 Methods Courses</h1>
     <p class="lede">Advanced political methodology courses taught live, in person at the host campus and over Zoom, and open to graduate students at all member universities. See what's offered and how to enroll.</p>
     <ul class="members" aria-label="Member universities"><li>University of Illinois Urbana-Champaign</li><li>University of Minnesota</li><li>The Ohio State University</li><li>University of Wisconsin–Madison</li></ul>
@@ -81,6 +91,7 @@
     <a href="#faq">FAQ</a>
     <a href="#contact">Contact</a>
     <a href="#about">About PoliSci U</a>
+    <a href="#archive">Past courses</a>
   </div>
 </nav>
 
@@ -114,7 +125,7 @@
         <div><b>Illinois course no.</b>PS 590</div>
         <div><b>Credit hours</b>2</div>
       </div>
-      <div class="enroll"><strong>To enroll:</strong> Illinois students register for PS 590. Students at other member universities follow <a href="#path-partner">these steps</a>.</div>
+      <div class="enroll"><strong>To enroll:</strong> Illinois students register for PS 590. Students at other member universities: see <a href="#how-to-enroll">How to Enroll</a> for your university.</div>
     </article>
 
     <article class="course" id="deep-neural-networks">
@@ -132,7 +143,7 @@
         <div><b>Credit hours</b>2</div>
         <div><b>Prerequisites</b>Comfortable working in R; a first-year graduate sequence in quantitative social science methods (or equivalent)</div>
       </div>
-      <div class="enroll"><strong>To enroll:</strong> Illinois students register for PS 590, section B. Students at other member universities follow <a href="#path-partner">these steps</a>.</div>
+      <div class="enroll"><strong>To enroll:</strong> Illinois students register for PS 590, section B. Students at other member universities: see <a href="#how-to-enroll">How to Enroll</a> for your university.</div>
     </article>
 
     <article class="course osu" id="quant-2-mle">
@@ -144,7 +155,7 @@
         <div><b>Instructor</b>Maria Silfa</div>
         <div><b>Time and dates</b>To be announced</div>
       </div>
-      <div class="enroll"><strong>Interested?</strong> Contact the <a href="#contact">Illinois Director of Graduate Studies</a> or the instructor. Enrollment steps for Illinois students are <a href="#path-elsewhere">here</a>.</div>
+      <div class="enroll"><strong>Interested?</strong> Contact the instructor or your university's PoliSci U contact (see <a href="#how-to-enroll">How to Enroll</a>).</div>
     </article>
 
     <article class="course osu" id="formal-theory-1">
@@ -156,40 +167,52 @@
         <div><b>Instructor</b>Zuheir Desai</div>
         <div><b>Time and dates</b>To be announced</div>
       </div>
-      <div class="enroll"><strong>Interested?</strong> Contact the <a href="#contact">Illinois Director of Graduate Studies</a> or the instructor. Enrollment steps for Illinois students are <a href="#path-elsewhere">here</a>.</div>
+      <div class="enroll"><strong>Interested?</strong> Contact the instructor or your university's PoliSci U contact (see <a href="#how-to-enroll">How to Enroll</a>).</div>
     </article>
 
   </section>
 
   <section id="how-to-enroll">
     <h2>How to Enroll</h2>
-    <p>Pick the case that fits you.</p>
-    <div class="paths">
-      <div class="path" id="path-illinois">
-        <h3>Illinois student, course taught at Illinois</h3>
-        <ol>
-          <li>Find the course number and section in the course listing above.</li>
-          <li>Register through Illinois's usual graduate registration system.</li>
-          <li>If registration is restricted, contact Cara Wong, Director of Graduate Studies (<a href="mailto:carawong@illinois.edu">carawong@illinois.edu</a>).</li>
-        </ol>
-      </div>
-      <div class="path" id="path-elsewhere">
-        <h3>Illinois student, course taught at another member university</h3>
-        <ol>
-          <li>Find the course in Self-Service under its Illinois course number (listed with the course on this page).</li>
-          <li>Register as you would for any Illinois course.</li>
-          <li>The instructor will share the Zoom link and course materials. For any other questions, you can contact the instructor.</li>
-        </ol>
-      </div>
-      <div class="path" id="path-partner">
-        <h3>Student at another member university, course taught at Illinois</h3>
-        <ol>
-          <li>Ask your department's PoliSci U contact or graduate office which local course number to register under.</li>
-          <li>Register at your home university.</li>
-          <li>The instructor will share the Zoom link and course materials. For any other questions, you can contact the instructor.</li>
-        </ol>
-      </div>
+    <p>Steps depend on your home university and where the course is taught. Choose your university.</p>
+    <div class="uni-tabs" role="tablist" aria-label="Choose your university">
+      <button type="button" role="tab" id="tab-illinois" aria-controls="enroll-illinois" aria-selected="true">Illinois</button>
+      <button type="button" role="tab" id="tab-minnesota" aria-controls="enroll-minnesota" aria-selected="false">Minnesota</button>
+      <button type="button" role="tab" id="tab-ohio-state" aria-controls="enroll-ohio-state" aria-selected="false">Ohio State</button>
+      <button type="button" role="tab" id="tab-wisconsin" aria-controls="enroll-wisconsin" aria-selected="false">Wisconsin–Madison</button>
     </div>
+      <div class="uni-panel" id="enroll-illinois" role="tabpanel" aria-labelledby="tab-illinois">
+        <div class="paths">
+          <div class="path"><h3>Illinois student, course taught at Illinois</h3><ol><li>Find the course number and section in the course listing above.</li><li>Register through Illinois's usual graduate registration system.</li><li>If registration is restricted, contact Cara Wong, Director of Graduate Studies (<a href="mailto:carawong@illinois.edu">carawong@illinois.edu</a>).</li></ol></div>
+          <div class="path"><h3>Illinois student, course taught at another member university</h3><ol><li>Find the course in Self-Service under its Illinois course number (listed with the course on this page).</li><li>Register as you would for any Illinois course.</li><li>The instructor will share the Zoom link and course materials. For any other questions, you can contact the instructor.</li></ol></div>
+          <div class="path"><h3>Student from another member university, course taught at Illinois</h3><ol><li>Ask your department's PoliSci U contact or graduate office which local course number to register under.</li><li>Register at your home university.</li><li>The instructor will share the Zoom link and course materials. For any other questions, you can contact the instructor.</li></ol></div>
+        </div>
+        <p class="panel-foot"><strong>Illinois PoliSci U contact:</strong> Cara J. Wong, Director of Graduate Studies · <a href="mailto:carawong@illinois.edu">carawong@illinois.edu</a><br><span class="note">Information last updated: November 2026 (Spring 2027 enrollment)</span></p>
+      </div>
+      <div class="uni-panel" id="enroll-minnesota" role="tabpanel" aria-labelledby="tab-minnesota" hidden>
+        <div class="paths">
+          <div class="path"><h3>Minnesota student, course taught at Minnesota</h3><p class="pending">Details from Minnesota coming soon.</p></div>
+          <div class="path"><h3>Minnesota student, course taught at another member university</h3><p class="pending">Details from Minnesota coming soon.</p></div>
+          <div class="path"><h3>Student from another member university, course taught at Minnesota</h3><p class="pending">Details from Minnesota coming soon.</p></div>
+        </div>
+        <p class="panel-foot"><span class="pending">These steps will be posted before registration opens. Until then, contact your Director of Graduate Studies.</span><br><strong>Minnesota PoliSci U contact:</strong> <span class="tbc">to be confirmed</span><br><span class="note">Information last updated: —</span></p>
+      </div>
+      <div class="uni-panel" id="enroll-ohio-state" role="tabpanel" aria-labelledby="tab-ohio-state" hidden>
+        <div class="paths">
+          <div class="path"><h3>Ohio State student, course taught at Ohio State</h3><p class="pending">Details from Ohio State coming soon.</p></div>
+          <div class="path"><h3>Ohio State student, course taught at another member university</h3><p class="pending">Details from Ohio State coming soon.</p></div>
+          <div class="path"><h3>Student from another member university, course taught at Ohio State</h3><p class="pending">Details from Ohio State coming soon.</p></div>
+        </div>
+        <p class="panel-foot"><span class="pending">These steps will be posted before registration opens. Until then, contact your Director of Graduate Studies.</span><br><strong>Ohio State PoliSci U contact:</strong> <span class="tbc">to be confirmed</span><br><span class="note">Information last updated: —</span></p>
+      </div>
+      <div class="uni-panel" id="enroll-wisconsin" role="tabpanel" aria-labelledby="tab-wisconsin" hidden>
+        <div class="paths">
+          <div class="path"><h3>Wisconsin–Madison student, course taught at Wisconsin–Madison</h3><p class="pending">Details from Wisconsin–Madison coming soon.</p></div>
+          <div class="path"><h3>Wisconsin–Madison student, course taught at another member university</h3><p class="pending">Details from Wisconsin–Madison coming soon.</p></div>
+          <div class="path"><h3>Student from another member university, course taught at Wisconsin–Madison</h3><p class="pending">Details from Wisconsin–Madison coming soon.</p></div>
+        </div>
+        <p class="panel-foot"><span class="pending">These steps will be posted before registration opens. Until then, contact your Director of Graduate Studies.</span><br><strong>Wisconsin–Madison PoliSci U contact:</strong> <span class="tbc">to be confirmed</span><br><span class="note">Information last updated: —</span></p>
+      </div>
   </section>
 
   <section id="faq">
@@ -204,7 +227,7 @@
     </details>
     <details>
       <summary>How are classes delivered?</summary>
-      <p>Classes are taught live by the host instructor. Illinois-hosted courses meet in 429 David Kinley Hall, and students at other campuses join on Zoom. The instructor will share the Zoom link and course materials.</p>
+      <p>Classes are taught live by the host instructor. Students at campuses other than the host instructor's join remotely (on Zoom, Google Meet, or another platform chosen by the instructor). Students at the host campus may meet in person or remotely, at the discretion of the host university or department.</p>
     </details>
     <details>
       <summary>Will the course count toward my methods requirements?</summary>
@@ -219,9 +242,9 @@
   <section id="contact">
     <h2>Contact</h2>
     <div class="contact-box">
-      <p><strong>Cara J. Wong</strong>, Director of Graduate Studies, Department of Political Science<br><a href="mailto:carawong@illinois.edu">carawong@illinois.edu</a> · 424 David Kinley Hall</p>
-      <p>For questions about a specific course, contact its instructor.</p>
-      <p style="margin:0">Department of Political Science, University of Illinois Urbana-Champaign · <a href="https://pol.illinois.edu/">pol.illinois.edu</a></p>
+      <p><strong>Questions about a specific course:</strong> contact its instructor.</p>
+      <p><strong>Questions about enrolling:</strong> contact your university's PoliSci U contact, listed under <a href="#how-to-enroll">How to Enroll</a>.</p>
+      <p style="margin:0"><strong>About this page:</strong> Cara J. Wong, Director of Graduate Studies, Department of Political Science, University of Illinois Urbana-Champaign · <a href="mailto:carawong@illinois.edu">carawong@illinois.edu</a></p>
     </div>
   </section>
 
@@ -232,10 +255,57 @@
     <p class="note"><strong>Acknowledgement:</strong> Background on PoliSci U is adapted from the PoliSci U – Advanced Methodology page maintained by the Department of Political Science at The Ohio State University.</p>
   </section>
 
+  <section id="archive">
+    <h2>Past Courses and Program History</h2>
+    <p>Course schedules from earlier years, and papers on the program's history. These files are currently hosted on the Ohio State PoliSci U page.</p>
+    <h3>Past course schedules (Spring 2024 back to 1999)</h3>
+    <p class="note">Spring 2024: Game Theory (Andrew Kydd, Wisconsin) and Experimental Methods (Jonathan Renshon, Wisconsin).</p>
+    <ul class="archive-list">
+        <li><a href="https://polisci.osu.edu/sites/default/files/2023-07/ITVExperMethods2024.pdf">Spring 2024: Experimental Methods course description</a></li>
+        <li><a href="https://polisci.osu.edu/sites/default/files/2022-10/PolisciUITVSpring2023.pdf">Spring 2023 course schedule</a></li>
+        <li><a href="https://polisci.osu.edu/sites/default/files/2022-08/polsci_u2022-2023a.pdf">2022–2023 course schedule</a></li>
+        <li><a href="https://polisci.osu.edu/sites/default/files/2021-07/PoliSci%20U%202021-22_rev1.pdf">2021–2022 course schedule</a></li>
+        <li><a href="https://polisci.osu.edu/sites/default/files/2020-11/PoliSci%20U%202020-21f.pdf">2020–2021 course schedule</a></li>
+        <li><a href="https://polisci.osu.edu/sites/default/files/2019-11/Spring%202020%20PoliSci%20U%20Course%20Schedule.pdf">Spring 2020 course schedule</a></li>
+        <li><a href="https://polisci.osu.edu/sites/polisci.osu.edu/files/2018-19_ITV_schedule.pdf">Fall 2018 and Spring 2019 schedule</a></li>
+        <li><a href="https://polisci.osu.edu/sites/polisci.osu.edu/files/Spring%202018%20ITV%20Course%20Schedule.pdf">Spring 2018 schedule</a></li>
+        <li><a href="https://polisci.osu.edu/sites/polisci.osu.edu/files/2016-2017CourseSchedule.pdf">Fall 2016 and Spring 2017 schedule</a></li>
+        <li><a href="https://polisci.osu.edu/sites/polisci.osu.edu/files/2015-2016.pdf">2015–2016 schedule</a></li>
+        <li><a href="https://polisci.osu.edu/sites/polisci.osu.edu/files/2014-2015.pdf">2014–2015 schedule</a></li>
+        <li><a href="https://polisci.osu.edu/sites/polisci.osu.edu/files/2004_2014_Archive.pdf">2003–2014 schedule archive</a></li>
+        <li><a href="https://polisci.osu.edu/sites/polisci.osu.edu/files/1999-2003.pdf">1999–2003 schedule archive</a></li>
+    </ul>
+    <h3>Papers on PoliSci U</h3>
+    <ul class="archive-list">
+        <li><a href="https://polisci.osu.edu/sites/polisci.osu.edu/files/TPM1.pdf">“The Multi-Site Interactive Video Curriculum in Advanced Data Analysis for Political Science” (Box-Steffensmeier, Freeman, Powers, Shively and Sutton), <em>The Political Methodologist</em></a></li>
+        <li><a href="https://polisci.osu.edu/sites/polisci.osu.edu/files/Weisberg1.pdf">“Distance Learning in Advanced Methods Training” (Herbert Weisberg), Midwest Political Science Association, 2001</a></li>
+        <li><a href="https://polisci.osu.edu/sites/polisci.osu.edu/files/s787au00.pdf">Scaling and Dimensional Analysis course (syllabus)</a></li>
+    </ul>
+  </section>
+
 </main>
 
 <footer>
-  <div class="wrap">Department of Political Science, University of Illinois Urbana-Champaign. Course details may change. Check with the instructor or the Director of Graduate Studies for the latest information. Last updated November 2026.</div>
+  <div class="wrap">PoliSci U page maintained by the Department of Political Science, University of Illinois Urbana-Champaign. Course details may change. Check with the instructor or the Director of Graduate Studies for the latest information. Last updated November 2026.</div>
 </footer>
+<script>
+(function(){
+  var tabs=[].slice.call(document.querySelectorAll('.uni-tabs [role="tab"]'));
+  function show(t){
+    tabs.forEach(function(x){
+      var on=(x===t);
+      x.setAttribute('aria-selected',on?'true':'false');
+      document.getElementById(x.getAttribute('aria-controls')).hidden=!on;
+    });
+  }
+  tabs.forEach(function(t,i){
+    t.addEventListener('click',function(){show(t);});
+    t.addEventListener('keydown',function(e){
+      var k=e.key==='ArrowRight'?1:e.key==='ArrowLeft'?-1:0;
+      if(k){var n=tabs[(i+k+tabs.length)%tabs.length];n.focus();show(n);}
+    });
+  });
+})();
+</script>
 </body>
 </html>
