@@ -5,25 +5,15 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PoliSci U — Spring 2027 Courses &amp; Enrollment</title>
 <meta name="description" content="Spring 2027 PoliSci U graduate political methodology courses (Illinois, Minnesota, Ohio State, Wisconsin–Madison) and how to enroll.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
-  :root{--blue:#13294B;--orange:#E84A27;--ink:#1d2433;--muted:#5b6475;--line:#dde2ea;--soft:#f4f6f9}
+  :root{--blue:#13294B;--orange:#FF5F05;--link:#1D58A7;--storm:#707372;--ink:#1d2433;--muted:#5b6475;--line:#dde2ea;--soft:#f4f6f9}
   *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.6;font-size:17px;background:#fff}
-  a{color:#1f4fa3} a:hover{color:var(--orange)}
+  body{margin:0;font-family:"Source Sans 3","Source Sans Pro",Arial,sans-serif;color:var(--ink);line-height:1.6;font-size:17px;background:#fff}
+  a{color:var(--link)} a:hover{color:var(--orange)}
   .wrap{max-width:980px;margin:0 auto;padding:0 24px}
-  header.hero{background:var(--blue);color:#fff;border-bottom:5px solid var(--orange)}
-  header.hero .wrap{padding:42px 24px 36px}
-  .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:13px;font-weight:600;color:#ffb8a3;margin:0 0 10px}
-  h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:0 0 12px}
-  .lede{font-size:19px;max-width:700px;margin:0 0 22px;color:#dfe6f2}
-  .members{list-style:none;padding:0;margin:0 0 24px;display:flex;flex-wrap:wrap;gap:8px}
-  .members li{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:5px 14px;font-size:14px;font-weight:600}
-  .cta{display:inline-block;background:var(--orange);color:#fff;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:6px;margin:0 10px 8px 0}
-  .cta.ghost{background:transparent;border:2px solid #fff}
-  .cta:hover{color:#fff;filter:brightness(1.08)}
-  nav.toc{border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:5}
-  nav.toc .wrap{display:flex;gap:22px;overflow-x:auto;padding:12px 24px}
-  nav.toc a{text-decoration:none;color:var(--blue);font-weight:600;font-size:15px;white-space:nowrap}
   main section{padding:40px 0 6px}
   h2{font-size:26px;color:var(--blue);margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid var(--line)}
   h3{font-size:20px;margin:0 0 4px}
@@ -66,14 +56,67 @@
   .archive-list{columns:2 300px;padding-left:20px;font-size:15.5px;margin:0 0 20px}
   .archive-list li{margin-bottom:6px;break-inside:avoid}
   #archive h3{font-size:18px;color:var(--blue);margin:18px 0 8px}
-  footer{margin-top:48px;border-top:1px solid var(--line);background:var(--soft)}
-  footer .wrap{padding:24px;font-size:14px;color:var(--muted)}
+  h1,h2,h3,.dept,.main-nav a,.uni-tabs button,.cta{font-family:Montserrat,"Source Sans 3",Arial,sans-serif}
+  .demo-bar{background:#FFF4E5;color:#7a3a00;font-size:14px;text-align:center;padding:6px 12px;border-bottom:1px solid #f3d3a8}
+  .site-head{background:#fff;border-top:6px solid var(--orange)}
+  .head-inner{padding:22px 24px 18px}
+  .brand{display:flex;flex-direction:column;line-height:1.15}
+  .college{font-size:14px;font-weight:600;color:var(--blue);letter-spacing:.02em}
+  .dept{font-size:clamp(24px,3.6vw,34px);font-weight:700;color:var(--blue)}
+  .main-nav{background:var(--blue);position:sticky;top:0;z-index:5}
+  .main-nav .wrap{display:flex;gap:2px;overflow-x:auto;padding:0 24px}
+  .main-nav a{color:#fff;text-decoration:none;font-weight:600;font-size:15px;padding:14px 14px 11px;border-bottom:3px solid transparent;white-space:nowrap}
+  .main-nav a:hover,.main-nav a:focus{border-bottom-color:var(--orange);color:#fff;background:rgba(255,255,255,.06)}
+  .page-title{background:var(--soft);border-bottom:1px solid var(--line)}
+  .page-title .wrap{padding:22px 24px 32px}
+  .breadcrumb{font-size:14px;color:var(--storm);margin-bottom:18px}
+  .breadcrumb span{margin:0 6px}
+  .eyebrow{text-transform:uppercase;letter-spacing:.1em;font-size:13px;font-weight:700;color:var(--orange);margin:0 0 8px}
+  h1{font-size:clamp(28px,4.6vw,40px);line-height:1.15;margin:0 0 12px;color:var(--blue);font-weight:700}
+  .lede{font-size:19px;max-width:720px;margin:0 0 18px;color:var(--ink)}
+  .members{list-style:none;padding:0;margin:0 0 22px;display:flex;flex-wrap:wrap;gap:8px}
+  .members li{background:#fff;border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:4px;padding:5px 12px;font-size:14.5px;font-weight:600;color:var(--blue)}
+  .cta{display:inline-block;background:var(--orange);color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:11px 20px;border-radius:4px;margin:0 10px 8px 0;border:2px solid var(--orange)}
+  .cta.ghost{background:#fff;color:var(--blue);border-color:var(--blue)}
+  .cta:hover{filter:brightness(1.05);color:#fff}
+  .cta.ghost:hover{background:var(--blue);color:#fff}
+  h2{font-weight:700}
+  .site-foot{margin-top:56px;background:var(--blue);color:#fff;border-top:6px solid var(--orange)}
+  .foot-grid{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px;padding:32px 24px 18px}
+  .site-foot .college{color:#fff}
+  .site-foot .dept{color:#fff;font-size:24px}
+  .addr{font-size:15px;line-height:1.6}
+  .site-foot a{color:#fff}
+  .foot-note{font-size:13.5px;color:#c8d0dc;padding:14px 24px 26px;border-top:1px solid rgba(255,255,255,.2)}
 </style>
 </head>
 <body>
 
-<header class="hero">
+<div class="demo-bar" role="note">Demo for review: this is not an official University of Illinois web page.</div>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <div class="brand">
+      <span class="college">College of Liberal Arts &amp; Sciences</span>
+      <span class="dept">Department of Political Science</span>
+    </div>
+  </div>
+  <nav class="main-nav" aria-label="On this page">
+    <div class="wrap">
+      <a href="#dates">Key Dates</a>
+      <a href="#courses">Courses</a>
+      <a href="#how-to-enroll">How to Enroll</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About PoliSci U</a>
+      <a href="#archive">Past Courses</a>
+    </div>
+  </nav>
+</header>
+
+<div class="page-title">
   <div class="wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="https://pol.illinois.edu/">Home</a> <span>›</span> Academics <span>›</span> Graduate Program <span>›</span> PoliSci U</nav>
     <p class="eyebrow">PoliSci U · Advanced Political Methodology Consortium</p>
     <h1>PoliSci U: Spring 2027 Methods Courses</h1>
     <p class="lede">Advanced political methodology courses taught live, in person at the host campus and over Zoom, and open to graduate students at all member universities. See what's offered and how to enroll.</p>
@@ -81,19 +124,7 @@
     <a class="cta" href="#courses">See Spring 2027 courses</a>
     <a class="cta ghost" href="#how-to-enroll">How to enroll</a>
   </div>
-</header>
-
-<nav class="toc" aria-label="On this page">
-  <div class="wrap">
-    <a href="#dates">Key dates</a>
-    <a href="#courses">Courses</a>
-    <a href="#how-to-enroll">How to enroll</a>
-    <a href="#faq">FAQ</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About PoliSci U</a>
-    <a href="#archive">Past courses</a>
-  </div>
-</nav>
+</div>
 
 <main class="wrap">
 
@@ -285,8 +316,17 @@
 
 </main>
 
-<footer>
-  <div class="wrap">PoliSci U page maintained by the Department of Political Science, University of Illinois Urbana-Champaign. Course details may change. Check with the instructor or the Director of Graduate Studies for the latest information. Last updated November 2026.</div>
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div class="brand">
+      <span class="college">College of Liberal Arts &amp; Sciences</span>
+      <span class="dept">Department of Political Science</span>
+    </div>
+    <div class="addr">
+      420 David Kinley Hall MC-713<br>1407 W Gregory Drive<br>Urbana, IL 61801<br>(217) 333-3881<br>Email: <a href="mailto:pol@illinois.edu">pol@illinois.edu</a>
+    </div>
+  </div>
+  <div class="wrap foot-note">PoliSci U page maintained by the Department of Political Science, University of Illinois Urbana-Champaign. Course details may change; check with the instructor or the Director of Graduate Studies for the latest information. Last updated November 2026.</div>
 </footer>
 <script>
 (function(){
