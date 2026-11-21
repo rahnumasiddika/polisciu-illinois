@@ -1,25 +1,27 @@
-# PoliSci U at Illinois — Course Offerings Page
+# PoliSci U — Spring 2027 Courses & Enrollment (demo)
 
-A one-page website listing graduate political methodology courses offered through the PoliSci U iTV consortium (Illinois, Minnesota, Ohio State, Wisconsin–Madison).
+**Demo site:** https://rahnumasiddika.github.io/polisciu-illinois/
 
-## Publish on GitHub Pages
+This is a **demo for review**, not an official University of Illinois web page. The official page will be published on the Department of Political Science website at Illinois, using the content drafted here.
 
-1. Create a new public repository on GitHub (e.g. `polisciu-illinois`).
-2. Upload `index.html` (and this README) to the repository: **Add file → Upload files → Commit changes**.
-3. Go to **Settings → Pages**. Under *Build and deployment*, choose **Deploy from a branch**, branch `main`, folder `/ (root)`, and **Save**.
-4. After a minute or two the site is live at `https://<your-username>.github.io/polisciu-illinois/`.
+The page lists the graduate political methodology courses offered through **PoliSci U**, the consortium of Illinois, Minnesota, Ohio State and Wisconsin–Madison. It also explains how students at each member university enroll.
 
-## Updating each semester
+## What's on the page
 
-Everything is in `index.html`. Each course is one `<article class="card">` block:
+- **Key Dates:** start dates and last days to add
+- **Courses:** one card per course, with instructor, time, dates, location, course number, credit hours and description
+- **How to Enroll:** one tab per member university, each with three cases (a course at the student's own university, a course at another member university, and visiting students). Each tab also lists that university's PoliSci U contact and an "Information last updated" date.
+- **FAQ** and **Contact**
+- **About PoliSci U** and **Past Courses and Program History**, which link to past schedules (1999–Spring 2024) and papers on the program
 
-- Change the institution, title, instructor, description and dates.
-- Set `data-status` to `confirmed`, `planned` or `potential`, and use the matching badge class (`b-confirmed`, `b-planned`, `b-potential`).
-- Update the "Last updated" date near the top of the courses section.
+## Updating the page
 
-Text in yellow (`class="placeholder"`) still needs to be filled in.
+Everything is in one file, `index.html`. To edit it, open the file on GitHub, click the pencil icon, make the change, and click **Commit changes**. The site updates in a minute or two.
+
+- **Courses:** each course is one `<article class="course">` block. Copy a block to add a course, or delete one to remove it.
+- **Enrollment steps:** each university's tab is a `<div class="uni-panel">` block. Replace "Details from … coming soon" with the steps, add the contact, and update "Information last updated".
+- **Each enrollment period:** update the Key Dates, the courses, each university's "Information last updated" date, and the "Last updated" date in the footer.
 
 ## Acknowledgement
 
-Background on PoliSci U is adapted from the Ohio State University Department of Political Science page:
-https://polisci.osu.edu/graduate/current-students/PoliSciU-advanced-methodology
+Background on PoliSci U, and the links to past schedules and papers, come from the PoliSci U – Advanced Methodology page maintained by the Department of Political Science at The Ohio State University: https://polisci.osu.edu/graduate/current-students/PoliSciU-advanced-methodology
