@@ -12,7 +12,8 @@ The page lists the graduate political methodology courses offered through **Poli
 - **Courses:** one card per course, with instructor, time, dates, location, course number, credit hours and description
 - **How to Enroll:** one tab per member university, each with three cases (a course at the student's own university, a course at another member university, and visiting students). Each tab also lists that university's PoliSci U contact and an "Information last updated" date.
 - **FAQ** and **Contact**
-- **About PoliSci U** and **Past Courses and Program History**, which link to past schedules (1999–Spring 2024) and papers on the program
+- **About PoliSci U** and **Past Courses**, which link to past schedules (1999–Spring 2024) and papers on the program
+- **History** (always the last section), copied from the Ohio State PoliSci U page with a link to the source
 
 ## Updating the page
 
@@ -24,4 +25,4 @@ Everything is in one file, `index.html`. To edit it, open the file on GitHub, cl
 
 ## Acknowledgement
 
-Background on PoliSci U, and the links to past schedules and papers, come from the PoliSci U – Advanced Methodology page maintained by the Department of Political Science at The Ohio State University: https://polisci.osu.edu/graduate/current-students/PoliSciU-advanced-methodology
+The History section is copied from, and the links to past schedules and papers come from, the PoliSci U – Advanced Methodology page maintained by the Department of Political Science at The Ohio State University: https://polisci.osu.edu/graduate/current-students/PoliSciU-advanced-methodology
